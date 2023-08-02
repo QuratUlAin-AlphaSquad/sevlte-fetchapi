@@ -2,8 +2,8 @@
     import FetchApi from "./components/FetchApi.svelte";
     /// Readable store component
     import ApiPostRequest from "./components/ApiPostRequest.svelte";
-    import PutUpdateMethod from "./components/putUpdateMethod.svelte";
-    import PatchUpdateMethod from "./components/patchUpdateMethod.svelte";
+    import PutUpdateMethod from "./components/PutUpdateMethod.svelte";
+    import PatchUpdateMethod from "./components/PatchUpdateMethod.svelte";
     import DeleteMethod from "./components/DeleteMethod.svelte";
 
     // Manual method to unsubscribe from a store
@@ -45,3 +45,5 @@
 <h1>Delete Data</h1>
 <DeleteMethod />
 <!-- <h1>Counter : {$timer}</h1> -->
+
+
