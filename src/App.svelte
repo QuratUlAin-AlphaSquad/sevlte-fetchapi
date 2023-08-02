@@ -5,6 +5,7 @@
     import PutUpdateMethod from "./components/PutUpdateMethod.svelte";
     import PatchUpdateMethod from "./components/PatchUpdateMethod.svelte";
     import DeleteMethod from "./components/DeleteMethod.svelte";
+    // import { GET } from "./routes/api/comments/+server";
 
     // Manual method to unsubscribe from a store
     //to loop items in an array
@@ -30,7 +31,7 @@
 {/each} -->
 
 <!-- Store Values accessed! -->
-<p class="text-4xl">Data Fetched from API</p>
+<!-- <p class="text-4xl">Data Fetched from API</p>
 <FetchApi />
 
 <h1>Post Request</h1>
@@ -43,7 +44,7 @@
 <PatchUpdateMethod />
 
 <h1>Delete Data</h1>
-<DeleteMethod />
+<DeleteMethod /> -->
 <!-- <h1>Counter : {$timer}</h1> -->
 
-
+<!-- <button on:click={GET()}>Comments</button> //( Not working)-->
