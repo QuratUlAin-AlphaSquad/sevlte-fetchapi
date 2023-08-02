@@ -1,5 +1,5 @@
 <script>
-    import FetchApi from "./components/fetchApi.svelte";
+    import FetchApi from "./components/FetchApi.svelte";
     /// Readable store component
     import ApiPostRequest from "./components/ApiPostRequest.svelte";
     import PutUpdateMethod from "./components/putUpdateMethod.svelte";
