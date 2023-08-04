@@ -1,7 +1,7 @@
 <script>
-    import FetchApi from "./components/FetchApi.svelte";
+    // import FetchApi from "./components/FetchApi.svelte";
     /// Readable store component
-    import ApiPostRequest from "./components/ApiPostRequest.svelte";
+    // import ApiPostRequest from "./components/ApiPostRequest.svelte";
     import PutUpdateMethod from "./components/PutUpdateMethod.svelte";
     import PatchUpdateMethod from "./components/PatchUpdateMethod.svelte";
     import DeleteMethod from "./components/DeleteMethod.svelte";
